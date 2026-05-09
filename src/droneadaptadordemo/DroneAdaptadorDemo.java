@@ -9,12 +9,12 @@ package droneadaptadordemo;
  * @author sistemas
  */
 public class DroneAdaptadorDemo {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Drone miDrone = new Drone();
+        Pato adaptador = new AdaptadorDrone(miDrone);
+
+        System.out.println("Probando el Drone como si fuera un Pato:");
+        adaptador.cuack();
+        adaptador.vuelo();
     }
-    
 }

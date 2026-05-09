@@ -8,6 +8,14 @@ package droneadaptadordemo;
  *
  * @author sistemas
  */
-public class Drone {
-    
+class Drone {
+    public void despegar() {
+        System.out.println("Drone despegando");
+    }
+    public void rotar() {
+        System.out.println("Drone Rotando");
+    }
+    public void beep() {
+        System.out.println("Beep... Beep... Beep...");
+    }
 }

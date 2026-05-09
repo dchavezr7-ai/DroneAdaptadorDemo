@@ -8,6 +8,7 @@ package droneadaptadordemo;
  *
  * @author sistemas
  */
-public class Pato {
-    
+interface Pato {
+    void cuack();
+    void vuelo();
 }
