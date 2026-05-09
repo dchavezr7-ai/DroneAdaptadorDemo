@@ -1,0 +1,10 @@
+public class DroneAdaptadorDemo {
+    public static void main(String[] args) {
+        Drone miDrone = new Drone();
+        Pato adaptador = new AdaptadorDrone(miDrone);
+
+        System.out.println("Probando el Drone como si fuera un Pato:");
+        adaptador.cuack();
+        adaptador.vuelo();
+    }
+}
