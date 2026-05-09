@@ -1,0 +1,5 @@
+interface Pato {
+    void cuack();
+    void vuelo();
+}
+
